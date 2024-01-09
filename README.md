@@ -27,3 +27,9 @@ Group Admins have the ability to manage group members, including adding or remov
 
 ### User Autonomy
 Users have the freedom to leave groups whenever they choose, providing them with control over their participation.
+
+### Customizable Group Names
+Admins can rename the group chat names, allowing for personalization and easy identification of groups.
+
+## Run Command
+` node index.js `
