@@ -17,7 +17,7 @@ dbConnect();
 // Middlewares
 app.use(
   cors({
-    origin: ["https://chatty-chat-1.netlify.app/"],
+    origin: ["https://chatty-chat-1.netlify.app"],
   })
 );
 app.use(express.json());
@@ -45,7 +45,7 @@ const expressServer = app.listen(PORT, () => {
 const io = new Server(expressServer, {
   pingTimeout: 60000,
   cors: {
-    origin: ["https://chatty-chat-1.netlify.app/"],
+    origin: ["https://chatty-chat-1.netlify.app"],
   },
 });
 
